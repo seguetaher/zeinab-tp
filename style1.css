@@ -1,0 +1,74 @@
+/* Configuration de base */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f9ff;
+    margin: 0;
+    padding: 20px;
+    color: #444;
+}
+
+.site-container {
+    max-width: 1050px;
+    margin: 0 auto;
+    background: #fff;
+    border: 4px solid #99ccff;
+    box-shadow: 0 0 15px rgba(0,0,0,0.05);
+}
+
+/* Header & Nav */
+header { padding: 15px 25px; }
+.slogan { color: #cc3333; font-weight: bold; margin-top: 5px; font-size: 0.9em; }
+
+nav { border-top: 4px solid #99ccff; border-bottom: 4px solid #99ccff; }
+nav ul { display: flex; list-style: none; justify-content: space-around; padding: 10px 0; margin: 0; }
+nav a { text-decoration: none; color: #cc3333; font-weight: bold; }
+
+/* Bannière */
+.main-banner img { width: 100%; height: auto; display: block; border-bottom: 2px solid #99ccff; }
+
+/* Mise en page Flexbox */
+.content-flex {
+    display: flex;
+    padding: 25px;
+    gap: 30px;
+}
+
+.presentation-text { flex: 2.5; }
+.presentation-text h1 { color: #2c3e50; font-size: 1.4em; border-bottom: 1px solid #ddd; padding-bottom: 10px; }
+.presentation-text h2 { color: #2c3e50; font-size: 1.2em; margin-top: 25px; }
+.presentation-text p { line-height: 1.5; font-size: 0.95em; text-align: justify; }
+.presentation-text ul, .presentation-text ol { font-size: 0.95em; line-height: 1.6; }
+
+/* Sidebar */
+.sidebar { flex: 1; }
+.info-card {
+    background: #f9f9f9;
+    border: 4px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+}
+.info-card h3 { color: #3f51b5; font-size: 1em; margin-top: 0; }
+.img-placeholder-small img { width: 100%; border-radius: 4px; margin: 10px 0; }
+.info-card p { font-size: 0.85em; line-height: 1.4; }
+
+/* Icônes Sociaux (simulées) */
+.social-icons { display: flex; gap: 5px; margin-top: 15px; }
+.icon {
+    width: 30px; height: 30px; color: white;
+    display: flex; align-items: center; justify-content: center;
+    border-radius: 4px; font-weight: bold; font-size: 12px;
+}
+.facebook { background: #3b5998; }
+.twitter { background: #00acee; }
+.vimeo { background: #1ab7ea; }
+.flickr { background: #ff0084; }
+.rss { background: #ff6600; }
+
+/* Footer */
+footer { border-top: 2px solid #99ccff; padding: 20px; background: #fff; }
+.footer-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 15px; }
+.footer-links { display: flex; flex-direction: column; }
+.footer-links strong { font-size: 0.85em; margin-bottom: 8px; color: #333; }
+.footer-links a { text-decoration: none; color: #3f51b5; font-size: 0.8em; margin-bottom: 4px; }
+.footer-info p { font-size: 0.8em; color: #3f51b5; margin: 5px 0; }

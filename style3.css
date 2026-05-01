@@ -1,0 +1,135 @@
+/* Styles globaux et fond de page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f7fc;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Le cadre bleu extérieur visible sur l'image */
+.site-frame {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border: 4px solid #87ceeb; /* Couleur bleu ciel */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Header */
+header {
+    padding: 20px;
+}
+
+.red-slogan {
+    color: #cc0000;
+    font-weight: bold;
+    font-style: italic;
+    margin: 5px 0 0 0;
+}
+
+/* Menu de navigation */
+nav {
+    border-top: 4px solid #87ceeb;
+    border-bottom: 4px solid #87ceeb;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 12px 0;
+    margin: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #b22222; /* Rouge sombre */
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+nav a.active {
+    border-bottom: 2px solid #b22222;
+}
+
+/* Bannière */
+.hero-image img {
+    width: 100%;
+    display: block;
+    height: auto;
+}
+
+/* Contenu Admissions */
+.admission-content {
+    padding: 40px;
+    color: #333;
+}
+
+.admission-block {
+    margin-bottom: 30px;
+}
+
+.admission-block h2 {
+    font-size: 1.6em;
+    color: #000;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.admission-block p {
+    line-height: 1.6;
+    margin-bottom: 10px;
+    font-size: 0.95em;
+}
+
+/* Liste à puces spécifique */
+.custom-bullets {
+    padding-left: 40px;
+    margin-top: 10px;
+}
+
+.custom-bullets li {
+    margin-bottom: 8px;
+    font-size: 0.95em;
+    position: relative;
+}
+
+/* Footer (Pied de page) */
+footer {
+    border-top: 4px solid #87ceeb;
+    padding: 20px 40px;
+}
+
+.footer-inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-col {
+    flex: 1;
+}
+
+.footer-col strong {
+    display: block;
+    font-size: 0.85em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.footer-col ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-col ul li a {
+    text-decoration: none;
+    color: #3f51b5; /* Bleu lien */
+    font-size: 0.8em;
+}
+
+.contact-info p {
+    font-size: 0.85em;
+    color: #3f51b5;
+    font-weight: bold;
+    margin: 5px 0;
+}
